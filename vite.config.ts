@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/ejercicio-react/",
+  base: "https://github.com/javiermhdz-cloud/ejercicios-react",
   plugins: [react()],
 })
