@@ -44,7 +44,7 @@ function App() {
 
   if (loading) {
     return (
-      <Stack alignItems="center" justifyContent="center" sx={{ minHeight: "80vh" }}>
+      <Stack sx={{ alignItems: "center", justifyContent: "center", minHeight: "80vh" }}>
         <CircularProgress />
       </Stack>
     );
@@ -69,7 +69,7 @@ function App() {
             justifyContent: "space-between",
           }}
         >
-          <Stack direction="row" spacing={2} alignItems="center">
+          <Stack direction="row" spacing={2} sx={{ alignItems: "center" }}>
             <Avatar
               src={pokemon.image}
               alt={pokemon.name}
